@@ -1,51 +1,162 @@
-.navbar {
-    background-color: #f05691;
-    color: #fff;
-    padding: 10px;
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+} 
+
+body {
+  background-color: #f3bddd;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 8px;
+  padding-top: 8px;
+  position: sticky;
+  top: 0;
+  background-color: #e781a8;
+  color: #36202a;
+  border-bottom: none;
+  z-index: 1000;
+}
+
+.site-name {
+  position: absolute;
+  top: 30px;
+  left: 130px;
+  font-family: "Varela Round", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.motto {
+  position: absolute;
+  top: 65px;
+  left: 132px;
+  font-family: "Varela Round", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+@media (max-width: 800px) {
+  .site-name{
+      font-size: 30px;
   }
-  
-  .navbar ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: space-between;
+  .motto {
+      font-size: 16px;
   }
-  
-  .navbar li {
-    display: inline-flex;
-  }
-  
-  .navbar a {
-    text-decoration: none;
-    color: #fff;
-    padding: 10px;
-  }
-  
-  /* For screens smaller than 768px */
-  @media (max-width: 768px) {
-    .navbar ul {
-      flex-direction: column;
+}
+
+main {
+  margin-top: 50px;
+}
+
+@media (max-width: 999px) {
+  .main-nav {
       display: none;
-    }
-  
-    .navbar .toggle-button {
-      display: block;
-      cursor: pointer;
-    }
-  
-    .navbar ul.active {
-      display: block;
-    }
   }
-  
-  .toggle-button {
+}
+
+.mobile-main-nav {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 99px;
+  left: 0;
+  right: 0;
+} 
+
+.mobile-main-nav a {
+  padding: 8px;
+}
+
+@media (min-width: 1000px) {
+  .mobile-nav-wrapper {
     display: none;
   }
-  
-  @media (max-width: 768px) {
-    .toggle-button {
-      display: flex;
-    }
+} 
+
+/* h1 {
+  font-family: "Sixtyfour Convergence";
+  font-size: 32px; 
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+  "BLED" 0,
+  "SCAN" 0,
+  "XELA" 0,
+  "YELA" 0;
+} 
+
+@media (min-width: 800px) {
+  h1 {
+      font-size: 40px; 
   }
-  
+} 
+
+h2, h3, button {
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h2 {
+  margin: 50px;
+}  */
+
+p, label, option, select, input, textarea, a {
+  font-family: "Varela Round", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  font-style: normal;
+  margin: 8.5px;
+}
+
+a {
+  color: #471414;
+}
+
+.logo { 
+  max-width: 160px;
+}
+
+.header {
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(173, 216, 230);
+}
+
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+@media (max-width: 999px) {
+  .main-nav {
+    display: none;
+  }
+}
+
+.mobile-main-nav {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(255, 222, 150);
+  position: absolute;
+  top: 120px;
+  left: 0;
+  right: 0;
+}
+
+.mobile-main-nav a {
+  padding: 8px;
+}
