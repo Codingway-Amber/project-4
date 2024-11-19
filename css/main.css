@@ -160,3 +160,7 @@ a {
 .mobile-main-nav a {
   padding: 8px;
 }
+
+.row {
+  margin: 15px;
+}
