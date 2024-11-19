@@ -164,3 +164,13 @@ a {
 .row {
   margin: 15px;
 }
+
+.carousel {
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.slick-slide img {
+  width: 100%;
+}

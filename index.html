@@ -23,44 +23,60 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=menu" />
+  <link rel="stylesheet" type="text/css" href="./slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css"/>
 </head>
 
 <body class="homepage">
-  <header>
-    <img class="logo" src="./img/amber-logo.png" alt="Logo of Amber"> 
-    <div class="site-name">Amber Illustrator</div>
-    <div class="motto">Delivering Art with Heart!</div>
-    <nav class="main-nav">
-      <a href="">Home</a>
-      <a href="">My Art ❤</a>
-      <a href="">About Me</a>
-      <a href="">Contact</a>
-    </nav> 
-    
-    <div class="mobile-nav-wrapper">
-      <a href="javascript:void(0);" class="icon" onclick="myFunction()"><span class="material-symbols-outlined">
-        menu
-        </span></a>
-      <nav id="myLinks" class="mobile-main-nav">
+  <main>
+    <header>
+      <img class="logo" src="./img/amber-logo.png" alt="Logo of Amber"> 
+      <div class="site-name">Amber Illustrator</div>
+      <div class="motto">Delivering Art with Heart!</div>
+      <nav class="main-nav">
         <a href="">Home</a>
         <a href="">My Art ❤</a>
         <a href="">About Me</a>
         <a href="">Contact</a>
-      </nav>
+      </nav> 
+      
+      <div class="mobile-nav-wrapper">
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()"><span class="material-symbols-outlined">
+          menu
+          </span></a>
+        <nav id="myLinks" class="mobile-main-nav">
+          <a href="">Home</a>
+          <a href="">My Art ❤</a>
+          <a href="">About Me</a>
+          <a href="">Contact</a>
+        </nav>
+      </div>
+    </header> 
+
+  <h1>Welcome!</h1>
+  
+  <div class="carousel">
+    <div>
+      <a href="#">
+        <img src="./img/aeropeach.jpg" alt="">
+      </a>
     </div>
-   </header> 
+    <div>
+      <a href="#">
+        <img src="./img/humankirby.jpg" alt="">
+      </a>
+    </div>
+    <div>
+      <a href="#">
+        <img src="./img/ryne1.jpg" alt="">
+      </a>
+    </div>
+  </div>
+  
+  </main>
 
-<!-- <button class="toggle-button">&#9776;</button>
-<nav class="navbar">
-  <ul>
-    <li><a href="#">Home</a></li>
-    <li><a href="#">About Me</a></li>
-    <li><a href="#">My Art ❤</a></li>
-    <li><a href="#">Contact</a></li>
-  </ul>
-</nav> -->
-
-<h1>Welcome!</h1>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="slick/slick.min.js"></script>
   <script src="js/main.js"></script>
 </body>
 
