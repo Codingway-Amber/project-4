@@ -7,11 +7,6 @@ function myFunction() {
     }
   };
 
-$(document).on("click", '[data-toggle="lightbox"]', function(event) {
-  event.preventDefault();
-  $(this).ekkoLightbox();
-});
-
 $(document).ready(function(){
   $('.carousel').slick({
     dots: true,

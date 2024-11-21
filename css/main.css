@@ -23,6 +23,18 @@ header {
   z-index: 1000;
 }
 
+.logo { 
+  max-width: 160px;
+}
+
+.header {
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(173, 216, 230);
+}
+
 .site-name {
   position: absolute;
   top: 30px;
@@ -61,6 +73,18 @@ main {
   }
 }
 
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+@media (max-width: 999px) {
+  .main-nav {
+    display: none;
+  }
+}
+
 .mobile-main-nav {
   display: none;
   flex-direction: column;
@@ -81,7 +105,22 @@ main {
   }
 } 
 
-/* h1 {
+.mobile-main-nav {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(255, 222, 150);
+  position: absolute;
+  top: 120px;
+  left: 0;
+  right: 0;
+}
+
+.mobile-main-nav a {
+  padding: 8px;
+}
+
+h1 {
   font-family: "Sixtyfour Convergence";
   font-size: 32px; 
   font-optical-sizing: auto;
@@ -100,7 +139,7 @@ main {
   }
 } 
 
-h2, h3, button {
+/* h2, h3, button {
   font-family: "Press Start 2P", system-ui;
   font-weight: 400;
   font-style: normal;
@@ -120,45 +159,6 @@ p, label, option, select, input, textarea, a {
 
 a {
   color: #471414;
-}
-
-.logo { 
-  max-width: 160px;
-}
-
-.header {
-  padding: 16px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background-color: rgb(173, 216, 230);
-}
-
-.main-nav {
-  display: flex;
-  justify-content: space-between;
-  gap: 16px;
-}
-
-@media (max-width: 999px) {
-  .main-nav {
-    display: none;
-  }
-}
-
-.mobile-main-nav {
-  display: none;
-  flex-direction: column;
-  align-items: center;
-  background-color: rgb(255, 222, 150);
-  position: absolute;
-  top: 120px;
-  left: 0;
-  right: 0;
-}
-
-.mobile-main-nav a {
-  padding: 8px;
 }
 
 .row {
