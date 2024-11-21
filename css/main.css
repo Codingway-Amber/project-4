@@ -163,6 +163,10 @@ a {
 
 .row {
   margin: 15px;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  flex-wrap: nowrap;
 }
 
 .carousel {
