@@ -149,7 +149,13 @@ h2 {
   margin: 50px;
 }  */
 
-p, label, option, select, input, textarea, a {
+h1 {
+  font-family: "Cherry Bomb One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+p, a {
   font-family: "Varela Round", sans-serif;
   font-weight: 400;
   font-size: 18px;
@@ -157,7 +163,7 @@ p, label, option, select, input, textarea, a {
   margin: 8.5px;
 }
 
-a {
+p, a, h1 {
   color: #471414;
 }
 
