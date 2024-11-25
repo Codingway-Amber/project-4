@@ -24,7 +24,9 @@ header {
 }
 
 .logo { 
+  position: relative;
   max-width: 160px;
+  bottom: 1px;
 }
 
 .header {
@@ -35,23 +37,24 @@ header {
   background-color: rgb(173, 216, 230);
 }
 
-.site-name {
+/* .site-name {
   position: absolute;
   top: 30px;
-  left: 130px;
+  left: 200px;
   font-family: "Varela Round", sans-serif;
   font-size: 30px;
   font-weight: 400;
   font-style: normal;
-}
+} */
 
 .motto {
   position: absolute;
-  top: 65px;
-  left: 132px;
+  top: 50px;
+  left: 200px;
   font-family: "Varela Round", sans-serif;
   font-weight: 400;
   font-style: italic;
+  font-size: 17.5px;
 }
 
 @media (max-width: 800px) {
@@ -142,35 +145,50 @@ p, a {
 
 p, a, h1 {
   color: #471414;
+  text-decoration: none;
 }
 
-/* p, h1 {
-  position: relative;
-  left: 30%;
-  right: 30%;
-} */
-
-.myart-title {
-  position: relative;
-  bottom: 20px;
-  left: 44%;
+a:hover {
+  color: #a10873;
+  text-decoration: none;
 }
 
-.myart-desc {
+a:active {
+  color: #cc429e;
+}
+
+.title {
   position: relative;
   bottom: 20px;
-  left: 31.5%;
+  /* left: 44%; */
+}
+
+.desc {
+  position: relative;
+  bottom: 20px;
+  /* left: 31.5%; */
+}
+
+.desc-about {
+  position: relative;
+  bottom: 20px;
+  /* left: 31.5%; */
 }
 
 .my-footer {
   position: relative;
   top: 40px;
-  left: 41.5%;
+  /* left: 41.5%; */
 }
+
+/* .art-list {
+  position: relative;
+} */
 
 .row {
   margin: 15px;
   max-width: 900px;
+  align-items: center;
   margin-left: auto;
   margin-right: auto;
   flex-wrap: nowrap;
