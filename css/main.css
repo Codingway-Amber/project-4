@@ -66,6 +66,18 @@ header {
   }
 }
 
+@media (max-width: 500px) {
+  .row {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 200px) {
+  .logo {
+    max-width: 100px
+  }
+}
+
 main {
   margin-top: 50px;
 }
@@ -160,13 +172,13 @@ a:active {
 .title {
   position: relative;
   bottom: 20px;
-  /* left: 44%; */
+  text-align: center;
 }
 
 .desc {
   position: relative;
   bottom: 20px;
-  /* left: 31.5%; */
+  text-align: center;
 }
 
 .desc-about {
@@ -178,7 +190,7 @@ a:active {
 .my-footer {
   position: relative;
   top: 40px;
-  /* left: 41.5%; */
+  text-align: center;
 }
 
 /* .art-list {
@@ -195,7 +207,7 @@ a:active {
 }
 
 .carousel {
-  width: 30%;
+  width: 70%;
   margin-left: auto;
   margin-right: auto;
 }
