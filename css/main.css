@@ -124,9 +124,9 @@ main {
   display: none;
   flex-direction: column;
   align-items: center;
-  background-color: rgb(255, 222, 150);
+  background-color: #f3bddd;
   position: absolute;
-  top: 120px;
+  top: 111px;
   left: 0;
   right: 0;
 }
@@ -232,7 +232,7 @@ input[type=text], select, textarea {
 
 /* Style the submit button with a specific background color etc */
 input[type=submit] {
-  background-color: #04AA6D;
+  background-color: #e781a8;
   color: white;
   padding: 12px 20px;
   border: none;
@@ -242,7 +242,7 @@ input[type=submit] {
 
 /* When moving the mouse over the submit button, add a darker green color */
 input[type=submit]:hover {
-  background-color: #45a049;
+  background-color: #a10873;
 }
 
 /* Add a background color and some padding around the form */
