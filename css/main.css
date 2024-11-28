@@ -244,7 +244,7 @@ a:active {
 }
 
 .carousel {
-  width: 70%;
+  width: 50%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -300,9 +300,6 @@ input[type=submit]:hover {
   /* margin: 200px; */
 }
 
-button {
-  margin: 20px;
-}
 .custom-btn {
   width: 130px;
   height: 40px;
@@ -320,6 +317,7 @@ button {
    7px 7px 20px 0px rgba(0,0,0,.1),
    4px 4px 5px 0px rgba(0,0,0,.1);
   outline: none;
+  margin: 20px;
 }
 
 .btn-11 {
