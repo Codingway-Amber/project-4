@@ -58,13 +58,13 @@
     </p>
 
     <div class="contact-form">
-      <form action="thanks.html" name="contact-box" method="POST">
+      <form action="thanks.html" name="contact-box" method="POST" autocomplete="on">
     
         <label for="name">Name/Social Media Handle</label>
-        <input type="text" id="name" name="name-handle" placeholder="@your_name" required>
+        <input type="text" id="name" name="name-handle" placeholder="@your_name" autocomplete="username" required>
     
         <label for="email">Email</label>
-        <input type="text" id="email" name="email" placeholder="example@uwu.com" required>
+        <input type="text" id="email" name="email" placeholder="example@uwu.com" autocomplete="email" required>
     
         <label for="commission">Commission Request</label>
         <select id="commission" name="commission">
@@ -79,7 +79,7 @@
         <input type="submit" value="Submit">
     
       </form>
-    </div>
+    </div>    
 
   </main>
 
