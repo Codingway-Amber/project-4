@@ -17,3 +17,7 @@ $(document).ready(function(){
     autoplaySpeed: 2000,
   });
 });
+
+function navigateToPage() {
+  window.location.href = "myart.html";
+}
